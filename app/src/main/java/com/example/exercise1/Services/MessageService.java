@@ -41,7 +41,6 @@ public class MessageService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
 
         Bundle remoteInput = RemoteInput.getResultsFromIntent(intent);
-        String receiver = intent.getStringExtra("receiver");
         int id = intent.getIntExtra("ntfid", 0);
         mNotificationManager = (NotificationManager) getApplicationContext()
                 .getSystemService(Context.NOTIFICATION_SERVICE);
