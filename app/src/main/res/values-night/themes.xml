@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Exercise1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/AliceBlue</item>
+        <item name="colorPrimaryVariant">@color/Bisque</item>
+        <item name="colorOnPrimary">@color/BlueViolet</item>
+        <item name="actionBarStyle">@style/MyActionbar</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/HotPink</item>
+        <item name="colorSecondaryVariant">@color/YellowGreen</item>
+        <item name="colorOnSecondary">@color/MediumVioletRed</item>
+        <item name="background">@color/PapayaWhip</item>
+        <item name="backgroundColor">@color/MediumVioletRed</item>
+
+        <item name="buttonTint">@color/White</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyActionbar">
+        <item name="background">@color/DarkOrange</item>
+        <item name="android:actionBarTabTextStyle">@color/White</item>
+        <item name="android:textSize">34dp</item>
+    </style>
+
+    <style name="Viewpager" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/Gray</item>
+        <item name="colorPrimaryVariant">@color/AliceBlue</item>
+        <item name="colorOnPrimary">@color/CadetBlue</item>
+        <item name="android:textSize">100dp</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/AliceBlue</item>
+        <item name="colorSecondaryVariant">@color/Fuchsia</item>
+        <item name="colorOnSecondary">@color/BlueViolet</item>
+        <item name="android:background">@color/LightSlateGray</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

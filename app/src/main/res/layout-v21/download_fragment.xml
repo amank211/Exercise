@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/message"
+        android:elevation="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/CornflowerBlue"
+        android:src="@android:drawable/ic_menu_send"
+        android:contentDescription="@string/todo"
+        android:layout_alignParentStart="true" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/servicedownload"
+        android:elevation="100dp"
+        android:backgroundTint="@color/FloralWhite"
+        android:layout_centerInParent="true"
+        android:src="@android:drawable/stat_sys_download_done"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/download"
+        android:elevation="100dp"
+        android:backgroundTint="@color/ForestGreen"
+        android:background="@color/ForestGreen"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/ic_menu_save"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/progress_download"
+        android:elevation="100dp"
+        android:backgroundTint="@color/DarkOrange"
+        android:background="@color/DarkOrange"
+        android:layout_toEndOf="@+id/servicedownload"
+        android:src="@android:drawable/stat_notify_error"
+        android:layout_toRightOf="@+id/servicedownload" />
+</RelativeLayout>

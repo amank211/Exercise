@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Exercise1" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/CadetBlue</item>
+        <item name="colorPrimaryVariant">@color/DeepSkyBlue</item>
+        <item name="colorOnPrimary">@color/CadetBlue</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Azure</item>
+        <item name="android:textColor">@color/Gray</item>
+        <item name="colorSecondaryVariant">@color/CornflowerBlue</item>
+        <item name="colorOnSecondary">@color/AliceBlue</item>
+
+        <item name="buttonTint">@color/Gray</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Viewpager" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/Gray</item>
+        <item name="colorPrimaryVariant">@color/Chocolate</item>
+        <item name="colorOnPrimary">@color/CadetBlue</item>
+        <item name="android:textSize">100dp</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Coral</item>
+        <item name="colorSecondaryVariant">@color/FloralWhite</item>
+        <item name="colorOnSecondary">@color/Khaki</item>
+        <item name="android:background">@color/MintCream</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
