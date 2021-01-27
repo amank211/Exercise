@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
 
     <application
         android:allowBackup="true"
@@ -20,7 +21,7 @@
 
         <service android:name=".Services.DownloadService" />
         <service android:name=".Services.MessageService" />
-
+        <service android:name=".Services.MediaService"/>
         <activity android:name=".DownloadActivity" />
 
         <receiver android:name=".Receiver.ReceiveReply" />

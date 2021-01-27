@@ -6,6 +6,7 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.RemoteInput;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -33,6 +34,7 @@ import com.example.exercise1.DownloadActivity;
 import com.example.exercise1.MainActivity;
 import com.example.exercise1.Services.DownloadService;
 import com.example.exercise1.Asyncs.FetchImage;
+import com.example.exercise1.Services.MediaService;
 import com.example.exercise1.Services.MessageService;
 import com.example.exercise1.Others.MyNotificationManager;
 import com.example.exercise1.Asyncs.ProgressDownload;
@@ -192,6 +194,7 @@ public class DownloadFragment extends Fragment {
         channel.setName(channelname);
         mNotificationManager.createNotificationChannel(channel);
     }
+
 
     @RequiresApi(api = Build.VERSION_CODES.P)
     void shownotification(String message, Notification.Builder builder2, String receiver){
